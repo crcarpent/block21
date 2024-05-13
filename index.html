@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Partylist</h1>
+    <ul id="list"><h2>help</h2></ul>
+
+    <form id="add-party-form">
+        
+
+        <label for="party-name">Party Name:</label>
+        <input type="text" id="party-name" name="party-name" required><br>
+
+        <label for="party-date">Date:</label>
+        <input type="date" id="party-date" name="party-date" required><br>
+
+        <label for="party-time">Time:</label>
+        <input type="time" id="party-time" name="party-time" required><br>
+
+        <label for="party-location">Location:</label>
+        <input type="text" id="party-location" name="party-location" required><br>
+
+        <label for="party-description">Description:</label><br>
+        <textarea id="party-description" name="party-description" rows="4" required></textarea><br>
+
+        <button type="submit">Add Party</button>
+    </form>
+</body>
+</html>
